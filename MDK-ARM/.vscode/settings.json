@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "cmsis_os.h": "c",
+        "main.h": "c",
+        "printf_dma.h": "c",
+        "can_handle.h": "c",
+        "uart3_callback_task.h": "c",
+        "can_handle_task.h": "c",
+        "main_control_task.h": "c",
+        "limits": "cpp",
+        "utility": "cpp",
+        "rng.h": "c",
+        "ws2812.h": "c",
+        "ws2812_control.h": "c",
+        "can.h": "c",
+        "include_cpp.h": "c"
+    }
+}
