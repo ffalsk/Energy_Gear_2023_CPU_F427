@@ -40,7 +40,7 @@ public:
     void HCcallback(void);
     void TCcallback(void);
     uint16_t GetPixelNum(void);
-    void FX_RainbowRoll(void);
+    void FX_RainbowRoll(uint16_t Delay_ms);
     void FX_SingleScan(uint8_t R, uint8_t G, uint8_t B);
     void Init(void);
 

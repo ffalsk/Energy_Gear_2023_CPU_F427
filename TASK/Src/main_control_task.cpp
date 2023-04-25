@@ -7,12 +7,13 @@ bool Is_startUP[5] = {0};  // 五个扇叶是否启动
 bool time_started = false;
 uint64_t last_tick = 0;
 uint8_t random_num; // 扇叶随机数
+uint8_t last_random_num;
 // UBaseType_t stack_size2;
 int RNG_Get_RandomRange(int min, int max)
 {
     uint32_t num_p;
     // HAL_RNG_GenerateRandomNumber(&hrng, num_p);
-    num_p = hrng.Instance->DR;//绕过HAL库
+    num_p = hrng.Instance->DR; // 绕过HAL库
     return (num_p) % (max - min + 1) + min;
 }
 
@@ -45,11 +46,17 @@ extern "C"
                         Is_startUP[ReceivedNUM - 1] = true;
                     }
 
-                    osDelay(500); // 有无必要？
+                    // osDelay(500); // 有无必要？
                 }
-                if (fan_OK_count >= 1) // 5
+                if (fan_OK_count >= 1) //! 改成5
                 {
                     StartUP = true; // 启动完成
+                    osDelay(400);
+                    for (uint8_t i = 0; i < 5; i++)
+                    {
+                        LED_Control(i + 1, Close_Mode, 0); // 对应灭灯
+                    }
+                    fan_OK_count = 0;
                 }
                 DataReceived = false;
             }
@@ -95,9 +102,10 @@ extern "C"
                     {
                         if (hrng.State == HAL_RNG_STATE_READY)
                         {
-                            random_num = (uint8_t)RNG_Get_RandomRange(1, 5); // 随机数生成
-                            if (knock[random_num - 1] == false)              // 不能生成已激活的扇叶
+                            random_num = (uint8_t)RNG_Get_RandomRange(1, 5);                         // 随机数生成
+                            if ((knock[random_num - 1] == false) && (random_num != last_random_num)) // 不能生成已激活的扇叶
                             {
+                                last_random_num = random_num;
                                 break;
                             }
                         }
@@ -113,28 +121,26 @@ extern "C"
                 }
                 if ((TIM6_tick - last_tick) <= 2500 && ReceivedNUM == random_num) // 正确打中
                 {
-                    if (knock[random_num] = false)
+                    if (knock[random_num - 1] == false)
                     {
                         fan_OK_count++;
                         time_started = false; // 击中后停止计时
                     }
-                    knock[random_num] = true;
+                    knock[random_num - 1] = true;
                     // 亮灯改变
                     LED_Control(random_num, Active_Mode, 0); // 对应亮灯，进入已激活状态
                 }
-                else if (((TIM6_tick - last_tick) <= 2500 && ReceivedNUM != random_num) || (TIM6_tick - last_tick) >= 2500) // 未正确打中
+                else if (/*((TIM6_tick - last_tick) <= 2500 && ReceivedNUM != 0&&ReceivedNUM != random_num) || */ (TIM6_tick - last_tick) >= 2500) // 未正确打中
                 {
                     for (uint8_t i = 0; i < 5; i++)
                     {
                         knock[i] = false;
                         // 亮灯改变
-                        LED_Control(i, Close_Mode, 0); // 对应灭灯
+                        LED_Control(i + 1, Close_Mode, 0); // 对应灭灯
                         osDelay(100);
                     }
-                    if ((TIM6_tick - last_tick) >= 2500)
-                    {
-                        time_started = false;
-                    }
+                    fan_OK_count = 0;
+                    time_started = false;
                 }
                 if (fan_OK_count == 5) // 全部点亮
                 {
@@ -145,7 +151,7 @@ extern "C"
                         for (uint8_t i = 0; i < 5; i++)
                         {
                             // 亮灯改变
-                            LED_Control(i, Active_Mode, 0);
+                            LED_Control(i + 1, Active_Mode, 0);
                         }
                         osDelay(500);
                     }
@@ -153,7 +159,7 @@ extern "C"
                     for (uint8_t i = 0; i < 5; i++)
                     {
                         // 亮灯改变
-                        LED_Control(i, Close_Mode, 0); // 对应灭灯
+                        LED_Control(i + 1, Close_Mode, 0); // 对应灭灯
                         osDelay(1000);
                     }
                     fan_OK_count = 0;

@@ -65,7 +65,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 I (..\Core\Inc\crc.h)(0x64412829)
 F (../Core/Src/gpio.c)(0x643E9137)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/gpio.o -MD)
@@ -132,7 +132,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (../Core/Src/freertos.c)(0x6442A79A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/freertos.o -MD)
 I (..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h)(0x63C11B4E)
@@ -198,7 +198,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (../Core/Src/can.c)(0x6443DBC5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/can.o -MD)
 I (..\Core\Inc\can.h)(0x643E913D)
@@ -264,7 +264,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (../Core/Src/crc.c)(0x64412829)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/crc.o -MD)
 I (..\Core\Inc\crc.h)(0x64412829)
@@ -331,7 +331,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (../Core/Src/dma.c)(0x643FE842)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/dma.o -MD)
 I (..\Core\Inc\dma.h)(0x643BEFAC)
@@ -397,7 +397,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (../Core/Src/rng.c)(0x643FE842)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/rng.o -MD)
 I (..\Core\Inc\rng.h)(0x643FE842)
@@ -463,7 +463,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (../Core/Src/tim.c)(0x64454600)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/tim.o -MD)
 I (..\Core\Inc\tim.h)(0x6441282A)
@@ -529,7 +529,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (../Core/Src/usart.c)(0x643E8C97)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/usart.o -MD)
 I (..\Core\Inc\usart.h)(0x643E8C98)
@@ -595,7 +595,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (../Core/Src/stm32f4xx_it.c)(0x6441282B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/stm32f4xx_it.o -MD)
 I (..\Core\Inc\main.h)(0x6445491D)
@@ -661,7 +661,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 I (..\Core\Inc\stm32f4xx_it.h)(0x6441282B)
 F (../Core/Src/stm32f4xx_hal_msp.c)(0x643BEFAD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/stm32f4xx_hal_msp.o -MD)
@@ -728,7 +728,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (../Core/Src/stm32f4xx_hal_timebase_tim.c)(0x643BEFAD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/stm32f4xx_hal_timebase_tim.o -MD)
 I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x63C11BAA)
@@ -1664,8 +1664,8 @@ I (..\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h
 I (..\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_wrappers.h)(0x63C11B4E)
 I (..\Middlewares\Third_Party\FreeRTOS\Source\include\task.h)(0x63C11B4E)
 I (..\Middlewares\Third_Party\FreeRTOS\Source\include\list.h)(0x63C11B4E)
-F (..\HARDWARE\Src\ws2812.cpp)(0x64414D4A)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/ws2812.o -MD)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+F (..\HARDWARE\Src\ws2812.cpp)(0x64479BF4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/ws2812.o -MD)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\Core\Inc\main.h)(0x6445491D)
 I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x63C11BAA)
 I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x6441282B)
@@ -1807,7 +1807,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (..\HARDWARE\Src\can_handle.cpp)(0x64454332)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/can_handle.o -MD)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
@@ -1887,7 +1887,7 @@ I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 F (..\HARDWARE\Src\uart3_callback.cpp)(0x64428011)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/uart3_callback.o -MD)
 I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\Core\Inc\main.h)(0x6445491D)
@@ -1965,10 +1965,10 @@ I (..\HARDWARE\Inc\printf_dma.h)(0x643E8F49)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (..\HARDWARE\Inc\include_cpp.h)(0x6444007F)()
-F (..\TASK\Src\ws2812_control.cpp)(0x6445281D)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/ws2812_control.o -MD)
+F (..\TASK\Src\ws2812_control.cpp)(0x64479C0D)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/ws2812_control.o -MD)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\Core\Inc\main.h)(0x6445491D)
 I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x63C11BAA)
@@ -2045,7 +2045,7 @@ I (..\HARDWARE\Inc\printf_dma.h)(0x643E8F49)
 I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
 F (..\TASK\Src\can_handle_task.cpp)(0x644526AD)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/can_handle_task.o -MD)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
@@ -2124,9 +2124,9 @@ I (..\HARDWARE\Inc\printf_dma.h)(0x643E8F49)
 I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)
-F (..\TASK\Src\main_control_task.cpp)(0x644548E2)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/main_control_task.o -MD)
+F (..\TASK\Src\main_control_task.cpp)(0x64479CBE)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../TASK/Inc -I ../HARDWARE/Inc-I./RTE/_F427_Test-IC:/Users/XH/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/XH/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F427xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F427xx-o f427_test/main_control_task.o -MD)
 I (..\TASK\Inc\main_control_task.h)(0x64440091)
 I (..\Core\Inc\main.h)(0x6445491D)
 I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x63C11BAA)
@@ -2203,5 +2203,5 @@ I (..\HARDWARE\Inc\printf_dma.h)(0x643E8F49)
 I (..\HARDWARE\Inc\uart3_callback.h)(0x644400A5)
 I (..\TASK\Inc\ws2812_control.h)(0x6444009E)
 I (..\TASK\Inc\can_handle_task.h)(0x6444011F)
-I (..\HARDWARE\Inc\ws2812.h)(0x644400B0)
+I (..\HARDWARE\Inc\ws2812.h)(0x64465382)
 I (..\HARDWARE\Inc\can_handle.h)(0x64440176)

@@ -23,10 +23,10 @@ WS2812 U_shape_LED5(U_shape_Pixel_Num, &htim1, TIM_CHANNEL_1, 180000000, TIM_CCR
 void LED_Control(uint8_t target, uint8_t mode, uint8_t None)
 {
     Control_flag[target - 1] = mode;
-    if (None != 0)
+    /*if (None != 0)
     {
         ID_setNUM[target - 1] = None;
-    }
+    }*/
 }
 
 void Arrow_Control(WS2812 &target, uint8_t LED_num)
@@ -58,7 +58,7 @@ void Arrow_Control(WS2812 &target, uint8_t LED_num)
     }
     else if (Control_flag[LED_num - 1] == Start_Mode)
     {
-        target.FX_RainbowRoll();
+        target.FX_RainbowRoll(5);
     }
     else if (Control_flag[LED_num - 1] == Error_Mode)
     {
@@ -95,7 +95,7 @@ void U_shape_Control(WS2812 &target, uint8_t LED_num)
     }
     else if (Control_flag[LED_num - 1] == Start_Mode)
     {
-        target.FX_RainbowRoll();
+        target.FX_RainbowRoll(5);
     }
     else if (Control_flag[LED_num - 1] == Error_Mode)
     {

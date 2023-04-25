@@ -229,7 +229,7 @@ void WS2812::FadeAll(uint8_t scale)
         FadePixel(scale, i);
     }
 }
-void WS2812::FX_RainbowRoll(void)
+void WS2812::FX_RainbowRoll(uint16_t Delay_ms)
 {
     uint8_t hue = 0;
     for (uint16_t i = 0; i < Pixel_num; i++)
@@ -237,9 +237,9 @@ void WS2812::FX_RainbowRoll(void)
         SetPixelColor_HSV(hue++, 100, 100, i);
         show();
 #ifdef configUSE_RTOS
-        osDelay(20);
+        osDelay(Delay_ms);
 #else
-        HAL_Delay(20);
+        HAL_Delay(Delay_ms);
 #endif
         FadeAll(252);
     }
@@ -248,9 +248,9 @@ void WS2812::FX_RainbowRoll(void)
         SetPixelColor_HSV(hue++, 100, 100, i);
         show();
 #ifdef configUSE_RTOS
-        osDelay(20);
+        osDelay(Delay_ms);
 #else
-        HAL_Delay(20);
+        HAL_Delay(Delay_ms);
 #endif
         FadeAll(252);
     }
